@@ -1,0 +1,1 @@
+CREATE TABLE Cust_demographic (Location VARCHAR(100), Country VARCHAR(50), State VARCHAR(50), District VARCHAR(50), City VARCHAR(50) , ID INT , FOREIGN KEY (ID) REFERENCES Cust_info(ID) );
